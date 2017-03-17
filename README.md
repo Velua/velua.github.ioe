@@ -8,4 +8,9 @@
 * React.js
 * HTML & CSS
 
-![Comparison](https://github.com/iankhor/files/blob/master/MedReFR/05%20.%20Wireferame%20-%20Concept%20Design%20Build%20comparison.jpg)
+Wireframe
+https://johnsportfolio.mybalsamiq.com/projects/portfolio/Portfolio
+
+Mockup
+https://www.figma.com/file/KowPmSHdDZ0a8GoE7XSqs00Z/Portfolio
+
