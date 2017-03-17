@@ -8,3 +8,4 @@
 * React.js
 * HTML & CSS
 
+![Comparison](https://github.com/iankhor/files/blob/master/MedReFR/05%20.%20Wireferame%20-%20Concept%20Design%20Build%20comparison.jpg)
