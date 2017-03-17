@@ -5,7 +5,7 @@
 * Must look pretty but also to the point and elegant and mobile responsive. 
 
 # Purpose
-Every good web developer has their own personal website to sell themselves! 
+To create an attractive website to build a personal brand towards potential employers and clients while demonstrating ability to plan, design, code and execute.
 
 # Target Audience
 Potential employers and clients as well as impressing the odd friend here and there. 
