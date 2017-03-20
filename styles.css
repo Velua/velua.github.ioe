@@ -82,7 +82,6 @@ a {
 	flex-wrap: wrap;
 	width: 40%;
 	flex-grow: 1;
-	min-width: 400px;
 	margin-bottom: 25px;
 	margin-left: 5px;
 	margin-right: 5px;
@@ -187,7 +186,10 @@ form {
 		flex-grow: 1;
 	}
 
+	.project { width: 100%;}
+
 	.project-container {
+		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
 	}
