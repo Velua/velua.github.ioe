@@ -8,6 +8,9 @@ a {
   text-decoration: inherit; /* no underline */
 }
 
+
+
+
 .wrapper {
 	width: 80%;
 	margin-left: auto;
@@ -54,7 +57,7 @@ a {
 	flex-grow: 1;
 	flex-basis: 200px;
 	padding: 5px 25px;
-	min-width: 400px;
+
 }
 
 .paragraph:last-child {
@@ -78,6 +81,7 @@ a {
 	display: flex;
 	flex-wrap: wrap;
 	width: 40%;
+	flex-grow: 1;
 	min-width: 400px;
 	margin-bottom: 25px;
 	margin-left: 5px;
@@ -145,6 +149,7 @@ a {
 .contact {
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .form {
@@ -164,4 +169,27 @@ form {
 
 .text {
 	width: 100%;
+}
+
+@media screen and (max-width: 450px) {
+	.wrapper {
+		width: 100%;
+	}
+
+	.work-content {
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		flex-direction: column;
+		width: 100%;
+		flex-grow: 1;
+	}
+
+	.project-container {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	form { width: 100%;}
+	body {background-color: red}
 }
