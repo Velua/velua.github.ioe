@@ -83,6 +83,7 @@ a {
 	width: 40%;
 	flex-grow: 1;
 	margin-bottom: 25px;
+	min-width: 350px;
 	margin-left: 5px;
 	margin-right: 5px;
 	text-align: center;
@@ -210,6 +211,7 @@ form {
 
 	.project-container {
 		width: 100%;
+		min-width: 0;
 		margin-left: auto;
 		margin-right: auto;
 	}
