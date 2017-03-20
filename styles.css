@@ -105,6 +105,18 @@ a {
 	margin-right: auto;
 }
 
+.social-icon {
+	margin-left: 10px;
+}
+
+.social-icon:first {
+	margin-left: 0px;
+}
+
+.social-icons {
+	margin-top: 10px;
+}
+
 .title {
 	font-size: 1.5em;
 	font-weight: bold;
@@ -189,6 +201,10 @@ form {
 		width: 100%;
 		flex-grow: 1;
 	}
+
+	.social-icon {
+	margin-left: 20px;
+}
 
 	.project { width: 100%;}
 
