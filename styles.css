@@ -3,6 +3,11 @@ body {
 	background-color: #FCFCFC;
 }
 
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
 .wrapper {
 	width: 80%;
 	margin-left: auto;
@@ -23,6 +28,7 @@ body {
 .col {
 	flex-grow: 1;
 	flex-basis: 300px;
+	box-sizing: border-box;
 }
 
 .portfolio-summary {
