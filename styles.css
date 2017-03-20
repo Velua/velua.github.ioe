@@ -15,6 +15,11 @@ body {
 	flex-wrap: wrap;
 }
 
+.portfolio-photo {
+
+	text-align: center;
+}
+
 .col {
 	flex-grow: 1;
 	flex-basis: 300px;
@@ -85,7 +90,7 @@ body {
 
 .project {
 	padding: 85px 50px;
-	flex-basis: 200px;
+	flex-basis: 400px;
 	flex-grow: 1;
 	margin-left: auto;
 	margin-right: auto;
@@ -115,6 +120,7 @@ body {
 	border-radius: 7px;
 }
 
+
 .callan {
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,4 +133,29 @@ body {
     background-size: cover;
 	background-image: url("bar.png");
 	border-radius: 7px;
+}
+
+
+.contact {
+	display: flex;
+	justify-content: center;
+}
+
+.form {
+
+	width: 60%;
+}
+
+form {
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.message {
+	padding: 30px;
+}
+
+.text {
+	width: 100%;
 }
