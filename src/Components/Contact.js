@@ -52,7 +52,7 @@ class Contact extends Component {
 						})}
 	
 	
-					<br /><br />
+					<br />
 					Regards, <br />
 					{this.state.changed ?  this.state.sender : "Pug"} <br />
 					{this.state.email}
