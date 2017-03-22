@@ -1,6 +1,6 @@
 body {
   font-family: 'Lato', sans-serif;
-  background-color: #FCFCFC;
+  background-color: white;
 }
 
 a {
@@ -16,6 +16,11 @@ a {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  background-color: #f0f4f4;
+  border-radius: 10px;
+  padding: 0 30px;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
 .section-1 {
@@ -232,4 +237,23 @@ form {
   form { width: 90%;}
   .form { width: 90%;}
 
+}
+
+
+#footer {
+  margin-top: 30px;
+  display: flex;
+  position:relative;
+  left:0px;
+  bottom:0px;
+  height:50px;
+  width:100%;
+  background:#f0f4f4;
+    align-items: center; /* Vertical center alignment */
+    justify-content: center; /* Horizontal center alignment */
+}
+
+#footer-text {
+  text-align: center;
+  font-size: 1.1em;
 }
