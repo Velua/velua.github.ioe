@@ -144,14 +144,14 @@ input:focus {
 .beach {
     background-repeat: no-repeat;
     background-size: cover;
-  background-image: url("%PUBLIC_URL%/beach.png");
+  background-image: url("beach.png");
   border-radius: 7px;
 }
 
 .resume {
     background-repeat: no-repeat;
     background-size: cover;
-  background-image: url("%PUBLIC_URL%/resume.png");
+  background-image: url("resume.png");
   border-radius: 7px;
 }
 
@@ -159,14 +159,14 @@ input:focus {
 .callan {
     background-repeat: no-repeat;
     background-size: cover;
-  background-image: url("%PUBLIC_URL%/cage.png");
+  background-image: url("cage.png");
   border-radius: 7px;
 }
 
 .bar {
     background-repeat: no-repeat;
     background-size: cover;
-  background-image: url("%PUBLIC_URL%/bar.png");
+  background-image: url("bar.png");
   border-radius: 7px;
 }
 
