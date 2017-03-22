@@ -5,9 +5,8 @@ class Contact extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			sender: "Pug",
+			sender: "",
 			changed: false,
-			to: "y beloved",
 			email: "",
 			message: "Only one thing lacks these banks of green \n The Pussy Cat who is their Queen...."
 		}
@@ -54,22 +53,22 @@ class Contact extends Component {
 	
 	
 					<br /><br />
-					Regards, <br /><br />
-					{this.state.changed ?  this.state.sender : "Pug"} <br /><br />
+					Regards, <br />
+					{this.state.changed ?  this.state.sender : "Pug"} <br />
 					{this.state.email}
 				</div>
 			</div>
 	
 			<div className="col form two">
-			<form className="form">
-				<div className="label form">Name: </div>
-				<input type="text" className="form text" onChange={this.updateSender} placeholder="" /> <br /><br />
+			<form action="https://formspree.io/johnjwilliamson@live.com" method="POST" className="form">
 				<div className="label form">Message: </div>
-				<textarea className="text" onChange={this.updateMessage} ></textarea> <br /><br />
+				<textarea className="text" name="message" onChange={this.updateMessage} ></textarea> <br /><br />
+				<div className="label form">Name: </div>
+				<input type="text" name="name" className="form text" onChange={this.updateSender} placeholder="" /> <br /><br />
 				<div className="label form">Email: </div>
-				<input className="form text" onChange={this.updateEmail} type="text" /> 
-				<div><button>Send</button></div>
-	
+				<input className="form text" name="_replyto" onChange={this.updateEmail} type="text" /> 
+				<div><button type="submit" value="Send">Send</button></div>
+
 	
 			</form>
 			</div>
