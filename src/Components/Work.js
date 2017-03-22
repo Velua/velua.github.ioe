@@ -17,7 +17,7 @@ const Work = props => {
 			</div>
 			<div className="project-container">
 			<div className="project beach">
-				<a href="http://beachfrontelectrical.com.au" target="_blank">
+				<a href="http://jjs.life/beachfront-electrical" target="_blank">
 					<div className="project-name">Beachfront Electrical</div>
 					<div className="project-summary">
 						Website for an Electrical business based on the Sunshine Coast.

@@ -20,6 +20,7 @@ const Intro = props => {
           <a href="https://github.com/velua" target="_blank"><i className="fa social-icon fa-github fa-2x" aria-hidden="true"></i></a>
           <a href="https://www.linkedin.com/in/jjwilliamson" target="_blank"><i className="fa social-icon fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
           <a href="https://twitter.com/velua" target="_blank"><i className="fa social-icon fa-twitter fa-2x" aria-hidden="true"></i></a>
+          <a href="https://medium.com/@jjs.life/" target="_blank"><i className="fa social-icon fa-medium fa-2x" aria-hidden="true"></i></a>
         </div>
 		</div>
 		</div>
