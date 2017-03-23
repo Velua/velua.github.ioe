@@ -3,7 +3,7 @@ import React from 'react';
 const Intro = props => {
 
 	console.log(props.basics);
-	const { name, summary, picture } = props.basics;
+	const { name, summary, label, picture } = props.basics;
 
 	return (
 		<div className="section-1">
@@ -16,7 +16,7 @@ const Intro = props => {
 				{props.basics.name}.
 			</div>
 			<div className="summary">
-				{summary}
+				{label}
 			</div>
 	        <div className="social-icons">
 	          <a href="http://jjs.life" target="_blank"><i className="fa social-icon fa-globe fa-2x" aria-hidden="true"></i></a>
